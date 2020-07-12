@@ -16,22 +16,15 @@
 
     <packaging>pom</packaging>
 
-    <name>Canos Super Version</name>
+    <name>Canos Framework Bom</name>
     <description>Resolve maven dependency version.</description>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>cn.canos</groupId>
-                <artifactId>super-version</artifactId>
-                <version>1.0.8</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-
-            <dependency>
-                <groupId>cn.canos</groupId>
                 <artifactId>canos-guava</artifactId>
+                <version>1.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
